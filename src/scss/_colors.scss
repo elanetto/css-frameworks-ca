@@ -1,0 +1,16 @@
+$starry-night: #111f2e;
+$indigo-dye: #084b83ff;
+$mint-green: #bbe6e4ff;
+$antiflash-white: #f0f6f6ff;
+$hot-pink: #ff66b3ff;
+
+$theme-colors: (
+  "primary": $starry-night,
+  "secondary": $indigo-dye,
+  "success": $mint-green,
+  "info": $antiflash-white,
+  "warning": $hot-pink,
+  "danger": $hot-pink,
+  "light": $antiflash-white,
+  "dark": $indigo-dye
+);
