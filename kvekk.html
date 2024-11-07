@@ -14,7 +14,7 @@
     <title>Gi et kvekk</title>
 </head>
 <body class="bg-primary">
-  <div class="container d-flex flex-column min-vh-100 bg-frog-image-small-frog">
+  <div class="container d-flex flex-column min-vh-100 bg-white">
 
     <!-- HEADER -->
     <header class="row bg-primary text-bg-info text-white">
@@ -46,18 +46,26 @@
 
     <!-- MAIN -->
     <main class="row">
-        <div class="col-6"></div>
-        <div class="col-5 p-4 mt-5 talking-bubble-opacity-flipped d-flex justify-content-end">
-            <div class="px-5 bubble-text-area">
-                <h1 class="amatic-sc-bold">
+        <div class="col-6 d-flex justify-content-center align-items-center" style="height: 550px;">
+            <img src="assets/images/three-frogs.svg" alt="tree frogs" style="height: 300px;">
+        </div>
+        <div class="col-5 p-4 mt-5 d-flex justify-content-center">
+            <div class="px-5">
+                <h1 class="amatic-sc-bold text-secondary">
                     Gi et lite kvekk
                 </h1>
-                <p>
-                    Caba whipnow fergoob fa flurze. Marf garsha flooz meepso fleeny doops swaybe badipsa frash shamoo blousa. Shooflee renato smustle fro yorbs norb swoobie shamoo marf ooh bor badipsa. Baba tig dow pipty choo.
-                </p>
-                <p>
-                    Caba whipnow fergoob fa flurze. Marf garsha flooz meepso fleeny doops swaybe badipsa frash shamoo blousa. Shooflee renato smustle fro yorbs norb swoobie shamoo marf ooh bor badipsa. Baba tig dow pipty choo.
-                </p>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Tittel</label>
+                        <input type="text" class="form-control" id="title" aria-describedby="titleHelp" style="width: 400px;">
+                        <div id="titleHelp" class="form-text">Gi kvekket ditt en tittel.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Kvekk</label>
+                        <textarea class="form-control" id="message" rows="3" style="height: 150px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send kvekk</button>
+                </form>
             </div>
         </div>
     </main>
