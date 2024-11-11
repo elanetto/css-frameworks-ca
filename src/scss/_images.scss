@@ -1,5 +1,5 @@
 .bg-frog-image {
-    background-image: url('https://github.com/elanetto/css-frameworks-ca/blob/main/assets/images/frog-jump.png?raw=true'); 
+    background-image: url('../../assets/images/frog-jump.png'); 
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .talking-bubble-opacity-80 {
-    background-image: url('https://github.com/elanetto/css-frameworks-ca/blob/main/assets/images/talking_bubble_80opacity.png?raw=true');
+    background-image: url('../../assets/images/talking_bubble_80opacity.png');
     background-size: 550px 500px;
     background-repeat: no-repeat;
 }
@@ -43,4 +43,9 @@
 
 .drop-shadow {
     filter: drop-shadow(5px 10px 4px #0000006c);
+}
+
+.rotating-frog-size {
+    height: 200px;
+    width: auto;
 }
