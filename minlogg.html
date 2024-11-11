@@ -20,23 +20,25 @@
     <header class="row bg-primary text-bg-info text-white">
         <div class="col-12">
             <div class="row">
-                <div class="col-2 d-flex justify-content-center align-items-center">
+                <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
                     <a href="index.html">
-                        <img src="assets/logo/kvekk_logo_nighteyes.svg" alt="logo" height="40px">
+                        <img src="assets/logo/kvekk_logo_nighteyes.svg" alt="logo" height="40px" class="mt-5">
                     </a>
                 </div>
-                <div class="col-8 d-flex justify-content-center pt-4">
+                <!-- This frog is visible only on large screens: -->
+                <div class="col-lg-8 d-none d-lg-flex justify-content-center pt-4">
                     <img src="assets/logo/kvegg_logg_header.svg" alt="frog" style="height: 120px;">
                 </div>
-                <div class="col-2 p-3 d-flex justify-content-center align-items-center">
+                <!-- Dropdown menu -->
+                <div class="col-lg-2 col-12 p-3 d-flex justify-content-center justify-content-md-start align-items-center">
                     <div class="dropdown">
                         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Meny
+                            Meny
                         </button>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="index.html">Hjem</a></li>
-                        <li><a class="dropdown-item" href="kvekk.html">Gi et lite kvekk</a></li>
-                        <li><a class="dropdown-item" href="minlogg.html">Min logg</a></li>
+                            <li><a class="dropdown-item" href="index.html">Hjem</a></li>
+                            <li><a class="dropdown-item" href="kvekk.html">Gi et lite kvekk</a></li>
+                            <li><a class="dropdown-item" href="minlogg.html">Min logg</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,13 +49,13 @@
     <!-- MAIN -->
     <div class="row shadow-box">
         <div class="col-12">
-            <h1 class="amatic-sc-bold text-white text-xl-center pt-5">
+            <h1 class="amatic-sc-bold text-white text-xl-center text-center pt-5">
                 Min logg
             </h1>
         </div>
     </div>
     <main class="row d-flex justify-content-center align-items-center">
-        <div class="col talking-bubble-opacity">
+        <div class="col-lg-4 col-12 talking-bubble-opacity">
             <div class="p-5 align-self-center">
                 <h2 class="amatic-sc-bold text-secondary">En ny tid!</h2>
                 <p>
@@ -61,7 +63,7 @@
                 </p>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-12">
             <div class="p-5 align-self-center">
                 <h2 class="amatic-sc-bold text-secondary">Neimen!</h2>
                 <p>
@@ -69,7 +71,7 @@
                 </p>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-12">
             <div class="p-5 align-self-center">
                 <h2 class="amatic-sc-bold text-secondary">Oi oi!</h2>
                 <p>
